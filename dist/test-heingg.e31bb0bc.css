@@ -1,0 +1,220 @@
+body{
+    height:100vh;
+    width:100vw;
+    display: grid;
+    place-items: center;
+}
+.app-cover{
+    height: 90vh;
+    width: 90vw;
+}
+.app-search{
+    display:flex;
+    border: 1.5px solid grey;
+    width: 30vw;
+    height: 2rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.app-search input{
+    width: 20vw;
+    height: 1.75rem;
+    border: 0px;
+    
+}
+.search{
+    background-color: #eee;
+    height: 2rem !important;
+    width: 3rem !important;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: grid;
+    border:0px;
+    place-items: center;
+    border-left: 1.25px solid grey;
+}
+.app-search img{
+    padding: 1rem;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.search img{
+    padding: 0px;
+}
+.app-result{
+    margin-bottom: 0.5rem;
+    color: grey;
+}
+hr{
+    border: 0.01px solid #ddd;
+    margin:0px;
+}
+.app-main{
+    width: 100%;
+    height: 85%;
+    display: grid;
+    place-items: center;
+}
+.table{
+    width: 100%;
+    height: 100%;
+}
+table{
+    width:100%;
+    border-spacing: 0px;
+}
+.table-head{
+    height: 2rem;
+    background-color: #eee;
+    border-bottom: 1.5px solid #ddd;
+}
+.table-head th{
+    font-weight: 500;
+    border-bottom: 1.5px solid #ddd;
+}
+td{
+    height: 3rem;
+    font-size: medium;
+    border-bottom: 1.5px solid #ddd;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.table-body:hover{
+    color: blue;
+}
+td img{
+    width: 1rem;
+    height: 1rem;
+}
+.main-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-dark{
+    background-color: #777;
+    color: white;
+    border-radius: 4px;
+    font-size: smaller;
+    margin-right: 1rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    text-align: center;
+    line-height: 1.25rem;
+}
+.main-to{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.messager{
+    text-align: center;
+    border-bottom: 2.5px solid #ddd;
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px){
+    body, html{
+        margin:0px;
+        padding:0px;
+    }
+    .app-cover{
+        width: 100vw;
+        height: 100vh;
+    }
+    .app-search{
+        margin-top: 1.5rem;
+        width: 75vw;
+    }
+    .app-search input{
+        width: 65vw;
+    }
+    .app-result, .app-search{
+        margin-left: 1rem;
+    }
+    table{
+        border-spacing: 1px;
+    }
+    thead{
+        height: 2rem;
+        background-color: #eee;
+        border-bottom: 1.5px solid #ddd;
+        line-height: 2rem;
+    }
+    .tabled{
+        margin-left: 1.25rem;
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+        align-items: center;
+        color: #444
+    }
+    .tabled th{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    .tabled img{
+        height: 0.5rem;
+        width: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .top{
+        display: flex;
+        align-items: center;
+    }
+    .top img{
+        height: 2rem;
+        width: 2rem;
+    }
+    .meant{
+        width: calc(100% - 2.5rem);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .beau{
+        width: 100%;
+    }
+    .main-dark{
+        margin:0px;
+    }
+    .meant h3, .message h2{
+        margin:0px;
+    }
+    .message h2{
+        margin-left: 1rem;
+        margin-top: 0.75rem;
+    }
+    .message{
+        padding: 1rem 1rem 1rem 0px;
+        border-bottom: 2.5px solid #ddd;
+        color: #555;
+    }
+    
+    .drop{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mean{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mean img{
+        width: 1rem;
+        height:1rem;
+    }
+    .meanie{
+        margin-right: 0.5rem;
+    }
+    
+}
+
+/*# sourceMappingURL=/test-heingg.e31bb0bc.css.map */
