@@ -28685,7 +28685,8 @@ function App() {
     src: _icon_calender.default
   }), " ", /*#__PURE__*/_react.default.createElement("input", {
     value: value,
-    onChange: e => setValue(e.target.value)
+    onChange: e => setValue(e.target.value),
+    placeholder: "Enter a date range, like 2019/2/3 - 2020/3/4 "
   }), " ", /*#__PURE__*/_react.default.createElement("button", {
     className: "search"
   }, /*#__PURE__*/_react.default.createElement("img", {
@@ -28736,6 +28737,8 @@ const Mail = props => {
   };
 
   const width = () => {
+    console.log(screen.width);
+
     if (screen.width < 600) {
       return false;
     }
@@ -28900,7 +28903,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50853" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64321" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

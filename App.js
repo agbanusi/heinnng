@@ -86,6 +86,7 @@ const Mail=(props)=>{
         return let.length>30? let.slice(0,25)+", ...":let
     }
     const width=()=>{
+        console.log(screen.width)
         if(screen.width < 600){
             return false
         }
